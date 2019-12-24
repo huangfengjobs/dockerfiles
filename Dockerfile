@@ -1,10 +1,1 @@
 FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-manager
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/file-metrics-collector
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/tfevent-metrics-collector
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperopt
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-chocolate
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-hyperband
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-skopt
-FROM gcr.io/kubeflow-images-public/katib/v1alpha3/suggestion-nasrl
